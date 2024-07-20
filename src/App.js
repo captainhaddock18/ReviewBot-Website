@@ -13,6 +13,10 @@ function App() {
         <Route exact path="/" element={<Home/>} />
         <Route exact path='*' element={<NotFound/>}/>
       </Routes>
+
+      <h1 className="text-3xl font-bold underline">
+      Hello world!
+      </h1>
     </div>
     </Router>
   );
