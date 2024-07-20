@@ -33,4 +33,4 @@ The primary motivation for developing this tool is to gain hands-on experience w
 - Large Language Models
 - LangChain
 - React JS/Next JS + other Development tools (frontend + backend)
-- Version Control System
+- Github (Version Control System)
