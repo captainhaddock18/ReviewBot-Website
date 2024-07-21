@@ -1,5 +1,5 @@
 import React from 'react';
-import ProgressBar from './ProgressBar';
+
 
 const teamMembers = [
   { name: 'Vandita', photo: 'https://via.placeholder.com/150', goldProgress: 70, elixirProgress: 60 },
@@ -12,6 +12,8 @@ const teamMembers = [
   { name: 'Yuvraj', photo: 'https://via.placeholder.com/150', goldProgress: 55, elixirProgress: 60 },
   { name: 'Prakhar', photo: 'https://via.placeholder.com/150', goldProgress: 90, elixirProgress: 80 },
 ];
+import ProgressBar from './PerformanceBar'; // Adjust the path as needed
+import './App.css';
 
 export default function Performance() {
   return (
