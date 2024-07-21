@@ -15,6 +15,7 @@ import myImage from "./assets/moai.png";
 import Framer from "./fade";
 import Team from "./Team.js";
 import Performance_home from "./performance_home.js";
+import Snowfall from "./test";
 import {
   Animator,
   ScrollContainer,
@@ -39,6 +40,10 @@ import ProgressPage from "./ProgressPage"; // Import the new ProgressPage compon
 export default function Home() {
   return (
     <div>
+      <div class="w-100% h-screen bg-[#001D21]">
+
+      <Snowfall />
+      </div>
       <ScrollContainer className="bg-[#001D21]">
         <ScrollPage>
           <Animator animation={batch(Fade(), Sticky(), MoveOut(0, -200))}>
@@ -48,11 +53,9 @@ export default function Home() {
               style={{ width: "100%", height: "70%" }} // Adjust style as needed
             />
           </Animator>
-        </ScrollPage>
-
         <Hero />
-
         <Teampage />
+        </ScrollPage> 
       </ScrollContainer>
       <Progress />
       <Performance_home />
