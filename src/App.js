@@ -30,6 +30,9 @@ import {
   ZoomIn,
   ZoomOut,
 } from "react-scroll-motion";
+import React from "react";
+import "./App.css";
+import ProgressPage from "./ProgressPage"; // Import the new ProgressPage component
 function App() {
   const ZoomInScrollOut = batch(StickyIn(), FadeIn(), ZoomIn());
   const FadeUp = batch(Fade(), Move(), Sticky());
@@ -63,6 +66,9 @@ function App() {
         <Progress />
         <Projects />
         <Form />
+
+        <Component />
+
         <Floater />
       </div>
     </Router>
