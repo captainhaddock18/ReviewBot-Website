@@ -59,6 +59,12 @@ function App() {
             </Animator>
           </ScrollPage>
 
+        <Routes>
+          <Route exact path="/" element={<Hero />} />
+          <Route path="/progress" element={<ProgressPage />} /> {/* Route for ProgressPage */}
+          <Route exact path="*" element={<NotFound />} />
+        </Routes>
+
           <Hero />
 
           <Teampage />
