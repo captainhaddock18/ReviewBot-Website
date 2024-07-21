@@ -5,7 +5,7 @@ import Header from "./Header";
 
 import Floater from "./floater";
 import Hero from "./hero";
-import Performance from "./Performance.js";
+import Performance from "./Performance";
 import NotFound from "./NotFound";
 import Progress from "./progress";
 import Teampage from "./teampage";
@@ -24,7 +24,7 @@ function App() {
       <Header />
       <Routes>
         <Route exact path="/" element={<Home />} />
-        <Route exact path="/performance" element={<Performance />} />
+        <Route path="/performance" element={<Performance />} />
         <Route path="/team" element={<Team />} />
         <Route path="/progress" element={<ProgressPage />} /> {/* Route for ProgressPage */}
       </Routes>
