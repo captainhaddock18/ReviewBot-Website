@@ -28,7 +28,7 @@ const Mentor = [
 
 const teamMember = [
     {
-        name: 'Aayush',
+        name: 'Aayush Bade',
         quote: 'Quote',
         photo: 'pic',
         gmail: 'link',
@@ -37,7 +37,7 @@ const teamMember = [
         github: 'link'
     },
     {
-        name: 'Aayush',
+        name: 'Nayan Kute',
         quote: 'Quote',
         photo: 'pic',
         gmail: 'link',
@@ -46,7 +46,7 @@ const teamMember = [
         github: 'link'
     },
     {
-        name: 'Aayush',
+        name: 'Vandita Gupta',
         quote: 'Quote',
         photo: 'pic',
         gmail: 'link',
@@ -55,7 +55,7 @@ const teamMember = [
         github: 'link'
     },
     {
-        name: 'Aayush',
+        name: 'Aditya Jha',
         quote: 'Quote',
         photo: 'pic',
         gmail: 'link',
@@ -64,7 +64,7 @@ const teamMember = [
         github: 'link'
     },
     {
-        name: 'Aayush',
+        name: 'Danie George John',
         quote: 'Quote',
         photo: 'pic',
         gmail: 'link',
@@ -73,7 +73,7 @@ const teamMember = [
         github: 'link'
     },
     {
-        name: 'Aayush',
+        name: 'Divyansh Maheshwari',
         quote: 'Quote',
         photo: 'pic',
         gmail: 'link',
@@ -82,7 +82,7 @@ const teamMember = [
         github: 'link'
     },
     {
-        name: 'Aayush',
+        name: 'Yuvraj Kumar',
         quote: 'Quote',
         photo: 'pic',
         gmail: 'link',
@@ -91,7 +91,7 @@ const teamMember = [
         github: 'link'
     },
     {
-        name: 'Aayush',
+        name: 'Prakhar Goyal',
         quote: 'Quote',
         photo: 'pic',
         gmail: 'link',
@@ -100,7 +100,7 @@ const teamMember = [
         github: 'link'
     },
     {
-        name: 'Aayush',
+        name: 'Iha Goyal',
         quote: 'Quote',
         photo: 'pic',
         gmail: 'link',
