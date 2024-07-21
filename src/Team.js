@@ -1,15 +1,15 @@
 import React from "react";
 import TeamMember from './TeamMember';
 import Header from "./Header";
-import tharak from "./assets/Screenshot 2024-07-02 135923.png";
-import varshit from "./assets/varshita_mentor.jpeg";
+import tharak from "./assets/2jWaCqDfgq6mkdJjcTtUQLWf3jz.svg";
+import varshit from "./assets/varshit_mentor.jpeg";
 import './TeamMember.css';
 
 const Mentor = [
     {
         name: 'Tharakadatta Hegde',
         quote: 'Quote',
-        photo: {tharak},
+        photo: "/images/image.png",
         gmail: 'mailto:b22es007@iitj.ac.in',
         insta: 'https://www.instagram.com/tharak_hegde?igsh=MWk1ZHFxNDJoZXM3',
         linkedin: 'https://www.linkedin.com/in/tharakadattahegde?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app',
@@ -119,6 +119,7 @@ const Team = () => {
                     <h2 class="mb-4 text-4xl tracking-tight font-extrabold text-[#FB8569] dark:text-white text-center">
                         Mentors
                     </h2>
+                    <div className="center">
                     <div className="container">
                         {Mentor.map((member, index) => (
                         <TeamMember
@@ -133,10 +134,12 @@ const Team = () => {
                         />
                         ))}
                     </div>
+                    </div>
                 </div>
                 <h2 class="mb-4 text-4xl tracking-tight font-extrabold text-[#FB8569] dark:text-white text-center">
                     Our Team
                 </h2>
+                <div className="center">
                 <div className="container">
                     {teamMember.map((member, index) => (
                     <TeamMember
@@ -150,6 +153,7 @@ const Team = () => {
                     github = {member.github}
                     />
                     ))}
+                </div>
                 </div>
             </div>
           

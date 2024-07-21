@@ -1,5 +1,5 @@
 import tharak from "./assets/tharak_mentor.jpeg";
-import varshit from "./assets/varshita_mentor.jpeg";
+import varshit from "./assets/varshit_mentor.jpeg";
 import {Link} from 'react-router-dom';
 export default function Teampage() {
     
