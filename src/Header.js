@@ -51,7 +51,7 @@ export default function Header() {
         <a href="#" class="block py-2 px-3 text-white bg-blue-700 rounded md:bg-transparent md:text-white md:p-0 dark:text-white md:dark:text-blue-500 hover:underline" aria-current="page">Team</a>
         </li>
         <li>
-        <a href="/progress" class="block py-2 px-3 text-white bg-blue-700 rounded md:bg-transparent md:text-white md:p-0 dark:text-white md:dark:text-blue-500 hover:underline" aria-current="page">Progress Bar</a>
+        <a href="#" class="block py-2 px-3 text-white bg-blue-700 rounded md:bg-transparent md:text-white md:p-0 dark:text-white md:dark:text-blue-500 hover:underline" aria-current="page">Progress Bar</a>
         </li>
         <li>
         </li>
