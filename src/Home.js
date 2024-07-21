@@ -38,7 +38,6 @@ import ProgressPage from "./ProgressPage"; // Import the new ProgressPage compon
 export default function Home() {
   return (
     <div>
-        <Header />
         <ScrollContainer className="bg-[#001D21]">
           <Component />
 
@@ -61,8 +60,6 @@ export default function Home() {
         <Form />
 
         <Component />
-
-        <Floater />
       </div>
   )
 }
