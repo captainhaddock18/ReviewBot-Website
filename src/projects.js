@@ -17,7 +17,7 @@ export default function Projects() {
           class="bg-gray-800 text-[#9B99FF] text-xl font-medium inline-flex items-center px-2.5 py-0.5 rounded dark:bg-gray-700 dark:text-gray-300">
           Task 1
         </span>
-        <h3 class="text-2xl font-bold leading-tight text-[#FB8569] dark:text-white">
+        <h3 class="text-2xl font-bold leading-tight text-[#F4FCC0] dark:text-white">
           Guess Dodger
         </h3>
         <p class="text-lg font-normal text-[#FB8569] dark:text-[#FB8569]">
@@ -31,7 +31,7 @@ export default function Projects() {
           class="bg-gray-800 text-[#9B99FF] text-xl font-medium inline-flex items-center px-2.5 py-0.5 rounded dark:bg-gray-700 dark:text-gray-300">
           Task 2
         </span>
-        <h3 class="text-2xl font-bold leading-tight text-[#FB8569] dark:text-[#FB8569]">
+        <h3 class="text-2xl font-bold leading-tight text-[#F4FCC0] dark:text-[#FB8569]">
           Linear and Logistic regression 
         </h3>
         <p class="text-lg font-normal text-[#FB8569] dark:text-[#FB8569]">
@@ -45,7 +45,7 @@ export default function Projects() {
           class="bg-gray-800 text-[#9B99FF] text-xl font-medium inline-flex items-center px-2.5 py-0.5 rounded dark:bg-gray-700 dark:text-gray-300">
           Task 3
         </span>
-        <h3 class="text-2xl font-bold leading-tight text-[#FB8569] dark:text-[#FB8569]">
+        <h3 class="text-2xl font-bold leading-tight text-[#F4FCC0] dark:text-[#FB8569]">
           Decision tree
         </h3>
         <p class="text-lg font-normal text-[#FB8569] dark:text-[#FB8569]">

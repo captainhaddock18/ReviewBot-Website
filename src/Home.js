@@ -3,7 +3,7 @@ import logo from "./logo.svg";
 import "./App.css";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Header from "./Header";
-import Component from "./Carousel";
+
 import Floater from "./floater";
 import Hero from "./hero";
 import NotFound from "./NotFound";
@@ -14,6 +14,7 @@ import Form from "./form";
 import myImage from "./assets/moai.png";
 import Framer from "./fade";
 import Team from "./Team.js";
+import Chadname from "./chad_name.js";
 import Performance_home from "./performance_home.js";
 import Snowfall from "./test";
 import {
@@ -41,7 +42,13 @@ export default function Home() {
   return (
     <div>
       <div class="w-100% h-screen bg-[#001D21]">
-
+      
+      <Snowfall />
+      </div>
+      
+      
+      <div class="w-100% h-screen bg-[#001D21]">
+      <Chadname />
       <Snowfall />
       </div>
       <ScrollContainer className="bg-[#001D21]">
@@ -54,15 +61,13 @@ export default function Home() {
             />
           </Animator>
         <Hero />
-        <Teampage />
-        </ScrollPage> 
+        </ScrollPage>
+        <Teampage /> 
       </ScrollContainer>
       <Progress />
       <Performance_home />
       <Projects />
       <Form />
-
-      <Component />
     </div>
   );
 }
