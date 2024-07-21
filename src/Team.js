@@ -28,13 +28,13 @@ const Mentor = [
 
 const teamMember = [
     {
-        name: 'Aayush Bade',
+        name: 'Aayush Raju Bade',
         quote: 'Quote',
         photo: 'pic',
-        gmail: 'link',
-        insta: 'link',
-        linkedin: 'link',
-        github: 'link'
+        gmail: 'b23mt1001@iitj.ac.in',
+        insta: 'https://www.instagram.com/aayushrajubade/',
+        linkedin: 'https://www.linkedin.com/in/aayush-raju-bade-b268b2280/',
+        github: 'https://github.com/AayushBade14'
     },
     {
         name: 'Nayan Kute',
