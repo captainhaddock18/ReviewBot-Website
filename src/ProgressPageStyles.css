@@ -24,20 +24,6 @@ body {
   margin-left: 20px; 
 }
 
-h1 {
-  color: #fb8569;
-  text-shadow: 
-    0 0 2px #fb8569,
-    0 0 2px #fb8569,
-    0 0 2px #fb8569,
-    0 0 2px #fb8569,
-    0 0 10px #fb8569,
-    0 0 5px #fb8569;
-  font-size: 2.5em; 
-  font-weight: bold; 
-  margin: 0; 
-}
-
 hr {
   border: 0.2px solid #fb8569;
   margin: 20px auto; 

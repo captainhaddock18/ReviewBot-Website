@@ -1,5 +1,4 @@
 import React from 'react';
-import './ProgressPageStyles.css';
 import ProgressBarWithNodes from './ProgressBarWithNodes';
 import logo from './logo.svg'; 
 
