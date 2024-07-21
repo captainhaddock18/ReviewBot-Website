@@ -34,7 +34,7 @@ const Snowfall = () => {
     generateSnowflakes();
   }, []);
 
-  return <div style={{ position: 'relative', width: '100%', height: '100vh', color:"#001D21" }}>{snowflakes}</div>;
+  return <div style={{ position: 'relative', width: '100%', height: '200vh', color:"#001D21" }}>{snowflakes}</div>;
 };
 
 export default Snowfall;

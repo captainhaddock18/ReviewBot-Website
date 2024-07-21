@@ -1,32 +1,154 @@
 import React from "react";
 import TeamMember from './TeamMember';
 import Header from "./Header";
+import tharak from "./assets/tharak_mentor.jpeg";
+import varshit from "./assets/varshita_mentor.jpeg";
+import './TeamMember.css';
+
+const Mentor = [
+    {
+        name: 'Tharakaddata Hegde',
+        quote: 'Quote',
+        photo: {tharak},
+        gmail: 'https://www.instagram.com/daniegeorgejohn?igsh=MTVjdmQ1OHdwMXBqZw==',
+        insta: 'link',
+        linkedin: 'link',
+        github: 'link'
+    },
+    {
+        name: 'Varshit Manikanta',
+        quote: 'Quote',
+        photo: {varshit},
+        gmail: 'link',
+        insta: 'link',
+        linkedin: 'link',
+        github: 'link'
+    }
+];
 
 const teamMember = [
     {
-        name: 'di',
-        quote: 'ss',
-        photo: 'phot',
-        links: 'lin'
-    }
+        name: 'Aayush',
+        quote: 'Quote',
+        photo: 'pic',
+        gmail: 'link',
+        insta: 'link',
+        linkedin: 'link',
+        github: 'link'
+    },
+    {
+        name: 'Aayush',
+        quote: 'Quote',
+        photo: 'pic',
+        gmail: 'link',
+        insta: 'link',
+        linkedin: 'link',
+        github: 'link'
+    },
+    {
+        name: 'Aayush',
+        quote: 'Quote',
+        photo: 'pic',
+        gmail: 'link',
+        insta: 'link',
+        linkedin: 'link',
+        github: 'link'
+    },
+    {
+        name: 'Aayush',
+        quote: 'Quote',
+        photo: 'pic',
+        gmail: 'link',
+        insta: 'link',
+        linkedin: 'link',
+        github: 'link'
+    },
+    {
+        name: 'Aayush',
+        quote: 'Quote',
+        photo: 'pic',
+        gmail: 'link',
+        insta: 'link',
+        linkedin: 'link',
+        github: 'link'
+    },
+    {
+        name: 'Aayush',
+        quote: 'Quote',
+        photo: 'pic',
+        gmail: 'link',
+        insta: 'link',
+        linkedin: 'link',
+        github: 'link'
+    },
+    {
+        name: 'Aayush',
+        quote: 'Quote',
+        photo: 'pic',
+        gmail: 'link',
+        insta: 'link',
+        linkedin: 'link',
+        github: 'link'
+    },
+    {
+        name: 'Aayush',
+        quote: 'Quote',
+        photo: 'pic',
+        gmail: 'link',
+        insta: 'link',
+        linkedin: 'link',
+        github: 'link'
+    },
+    {
+        name: 'Aayush',
+        quote: 'Quote',
+        photo: 'pic',
+        gmail: 'link',
+        insta: 'link',
+        linkedin: 'link',
+        github: 'link'
+    },
+    
 ]
 
 const Team = () => {
         return (
             <div>
-                <Header />
-            <div className="team">
-                {teamMember.map((member, index) => (
-                <TeamMember
+                <h2 class="mb-4 text-4xl tracking-tight font-extrabold text-[#FB8569] dark:text-white text-center">
+                    Mentors
+                </h2>
+                <div className="container">
+                    {Mentor.map((member, index) => (
+                    <TeamMember
+                        key={index}
+                        name={member.name}
+                        quote = {member.quote}
+                        photo={member.photo}
+                        gmail = {member.gmail}
+                        insta = {member.insta}
+                        linkedin= {member.linkedin}
+                        github = {member.github}
+                    />
+                    ))}
+                </div>
+                <h2 class="mb-4 text-4xl tracking-tight font-extrabold text-[#FB8569] dark:text-white text-center">
+                    Our Team
+                </h2>
+                <div className="container">
+                    {teamMember.map((member, index) => (
+                    <TeamMember
                     key={index}
                     name={member.name}
                     quote = {member.quote}
                     photo={member.photo}
-                    links = {member.links}
-                />
-                ))}
+                    gmail = {member.gmail}
+                    insta = {member.insta}
+                    linkedin= {member.linkedin}
+                    github = {member.github}
+                    />
+                    ))}
+                </div>
             </div>
-          </div>
           
         );
       };
