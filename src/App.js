@@ -5,7 +5,7 @@ import Header from "./Header";
 
 import Floater from "./floater";
 import Hero from "./hero";
-import Performance from "./Performance.js";
+import Performance from "./performance.js";
 import NotFound from "./NotFound";
 import Progress from "./progress";
 import Teampage from "./teampage";

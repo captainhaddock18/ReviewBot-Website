@@ -1,5 +1,7 @@
 import tharak from "./assets/tharak_mentor.jpeg";
 import varshit from "./assets/varshita_mentor.jpeg";
+import vandita from "./assets/vandita_team.jpeg";
+import ayush from "./assets/ayush_team.jpeg";
 import {Link} from 'react-router-dom';
 export default function Teampage() {
     
@@ -205,13 +207,13 @@ export default function Teampage() {
                 <div class="text-center text-[#FB8569] dark:text-gray-400">
                   <img
                     class="mx-auto mb-4 w-36 h-36 rounded-full"
-                    src={tharak}
+                    src={ayush}
                     alt="Helene Avatar"
                   />
                   <h3 class="mb-1 text-2xl font-bold tracking-tight text-[#FB8569] dark:text-white">
-                    <a href="#">Tharakdatta Hegde</a>
+                    <a href="#">Aayush Raju Bade</a>
                   </h3>
-                  <p>Mentor</p>
+                  <p>Mentee</p>
                   <ul class="flex justify-center mt-4 space-x-4">
                     <li>
                       <a
@@ -291,13 +293,13 @@ export default function Teampage() {
                 <div class="text-center text-[#FB8569] dark:text-gray-400">
                   <img
                     class="mx-auto mb-4 w-36 h-36 rounded-full"
-                    src={varshit}
+                    src={vandita}
                     alt="Neil Avatar"
                   />
                   <h3 class="mb-1 text-2xl font-bold tracking-tight text-[#FB8569] dark:text-white">
-                    <a href="#">Manikanta Varshit</a>
+                    <a href="#">Vandita Gupta</a>
                   </h3>
-                  <p>Mentor</p>
+                  <p>Mentee</p>
                   <ul class="flex justify-center mt-4 space-x-4">
                     <li>
                       <a
