@@ -1,3 +1,4 @@
+import './footer.css'; 
 
 export default function Floater() {
     return (
@@ -34,13 +35,13 @@ export default function Floater() {
         <path transform="translate(1245,354)" d="m0 0 9 1h5l-4 2-8 2h-5l1-3h2z" fill="#919BA5"/>
         <path transform="translate(467,1722)" d="m0 0h2l-1 5-5 10-1-4z" fill="#A3ACB6"/>
                 </svg>
-                  <span class="self-center text-2xl ml-3 font-semibold whitespace-nowrap text-white">CHAD</span>
+                  <span class="footer-text">CHAD</span>
               </a>
           </div>
           <div class="grid grid-cols-2 gap-8 sm:gap-6 sm:grid-cols-3">
               <div>
                   <h2 class="mb-6 text-base font-semibold text-white uppercase dark:text-white">Home</h2>
-                  <ul class="text-white dark:text-gray-400 font-medium">
+                  <ul class="text-[#939185] dark:text-gray-400 font-medium">
                       <li class="mb-4">
                           <a href="https://flowbite.com/" class="hover:underline">Team</a>
                       </li>
@@ -51,7 +52,7 @@ export default function Floater() {
               </div>
               <div>
                   <h2 class="mb-6 text-base font-semibold text-white uppercase dark:text-white">About</h2>
-                  <ul class="text-white dark:text-gray-400 font-medium">
+                  <ul class="text-[#939185] dark:text-gray-400 font-medium">
                       <li class="mb-4">
                           <a href="https://github.com/themesberg/flowbite" class="hover:underline ">Github</a>
                       </li>
@@ -62,7 +63,7 @@ export default function Floater() {
               </div>
               <div>
                   <h2 class="mb-6 text-base font-semibold text-white uppercase dark:text-white">Legal</h2>
-                  <ul class="text-white dark:text-white font-medium">
+                  <ul class="text-[#939185] dark:text-white font-medium">
                       <li class="mb-4">
                           <a href="#" class="hover:underline">Privacy Policy</a>
                       </li>

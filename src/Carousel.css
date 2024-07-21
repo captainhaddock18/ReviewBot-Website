@@ -1,35 +1,56 @@
 .custom-carousel-container {
-    border-radius: 0;
-    height: 500px;
-  }
-  
-  @media (min-width: 640px) {
-    .custom-carousel-container {
-      height: 400px;
-    }
-  }
-  
-  @media (min-width: 1280px) {
-    .custom-carousel-container {
-      height: 600px;
-    }
-  }
-  
-  @media (min-width: 1920px) {
-    .custom-carousel-container {
-      height: 700px;
-    }
-  }
-  
-  .custom-carousel {
-    border-radius: 0;
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-  }
+  border-radius: 0;
+  height: 500px;
+}
 
-  .image-1 {
-    background-image: url('./assets/carousel_1.jpg');
-    background-size: cover;
+@media (min-width: 640px) {
+  .custom-carousel-container {
+    height: 400px;
   }
-  
+}
+
+@media (min-width: 1280px) {
+  .custom-carousel-container {
+    height: 600px;
+  }
+}
+
+@media (min-width: 1920px) {
+  .custom-carousel-container {
+    height: 700px;
+  }
+}
+
+.custom-carousel {
+  border-radius: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.carousel-image {
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+}
+
+.image-1 {
+  background-image: url('./assets/carousel_1.jpg');
+}
+
+.image-2 {
+  background-image: url('./assets/project_mentors.jpg');
+}
+
+.image-3 {
+  background-image: url('./assets/carousel_teamwork (2).jpg');
+}
+
+.image-4 {
+  background-image: url('./assets/team1_task.png');
+}
+
+.image-5 {
+  background-image: url('./assets/team2_task.png');
+}

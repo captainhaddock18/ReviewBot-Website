@@ -1,0 +1,24 @@
+.navbar-text {
+    align-self: center;
+    font-size: 1.75rem; /* This is for text-2xl */
+    font-weight: 800; /* This is for font-semibold */
+    white-space: nowrap;
+    color: #FB8569;
+    text-shadow:
+        0 0 4px #FB8569,
+        0 0 11px #FB8569,
+        0 0 11px #FB8569,
+        0 0 62px #FB8569,
+        0 0 82px #FB8569,
+        0 0 92px #FB8569,
+        0 0 102px #FB8569,
+        0 0 151px #FB8569;
+}
+
+.glassmorphism {
+    background: #001D21; /* Adjust this color for transparency */
+    backdrop-filter: blur(100px); /* Adjust the blur radius for desired effect */
+    border: 1px solid rgba(255, 255, 255, 0.2); /* Optional: add a border to enhance the glass effect */
+  }
+  
+  
