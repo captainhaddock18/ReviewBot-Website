@@ -16,10 +16,10 @@ export default function Performance() {
   ];
 
   return (
-    <div className="min-h-screen bg-[#001D21] p-6">
+    <div className="min-h-screen bg-gray-100 dark:bg-gray-800 p-6">
       <header className="text-center mb-6">
-        <h1 className="text-3xl font-bold text-[#FB8569]">Team Performance</h1>
-        <p className="text-lg text-[#939185] mt-2">
+        <h1 className="text-3xl font-bold text-gray-900 dark:text-white">Team Performance</h1>
+        <p className="text-lg text-gray-700 dark:text-gray-300 mt-2">
           Track the performance of each team member here.
         </p>
       </header>
