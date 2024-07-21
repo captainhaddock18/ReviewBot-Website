@@ -34,7 +34,6 @@ export default function ProgressPage() {
     <section className=" dark:bg-gray-900 flex justify-center items-center">
       {/* Include ProgressBar here */}
       <div className="w-full max-w-screen-xl px-4 py-10 mx-auto">
-        <ProgressBar progress={70} duration={15} /> {/* Example values for progress and duration */}
         <ProgressBarWithNodes />
       </div>
     </section>
