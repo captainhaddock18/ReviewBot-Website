@@ -6,7 +6,7 @@ export default function Header() {
 
 <nav class="nav-bar bg-[#001D21] border-gray-200 dark:bg-gray-900 glassmorphism">
   <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
-    <a href="#" class="flex items-center space-x-3 rtl:space-x-reverse">
+    <a href="/" class="flex items-center space-x-3 rtl:space-x-reverse">
     <svg version="1.1" viewBox="0 0 2048 2048" width="32" height="32" xmlns="http://www.w3.org/2000/svg">
     <path transform="translate(1008)" d="m0 0h23l13 5 9 5 11 9v2h2v2h2l7 8 14 15 12 13 22 24 14 15 9 10 14 15 11 12 12 13 10 12 4 8 1 3v10l-4 11-4 5 1 4 16 17 9 10 8 8 15-6h11l10 4 9 7 7 8 8 8 7 8 12 13 14 15 22 24 9 12 5 11 3 13v11l-3 15-11 27-15 36-8 19 1 5 14 12 11 9 13 11 11 9 13 11 11 9 13 11 11 9 13 11 11 9 13 11 11 9 13 11 11 9 13 11 11 9 14 12 11 9 13 11 11 9 13 11 11 9 26 22 10 8 14 12 11 9 13 11 11 9 13 11 11 9 13 11 11 9 13 11 8 7 9 11 9 14 5 11 5 16 2 12v23l-4 20-6 15-9 16-12 14-10 9-18 13-16 11-20 14-16 11-14 10-19 13-18 13-16 11-17 12-3 2 2 4 11 16 13 18 10 16 8 16 7 21 3 16 1 12 1 131 4 15 21 65 16 50 12 38 11 33 8 26 4 17 1 7v21l-3 17-6 18-9 17-8 10-9 10-9 8-14 9-15 7-18 5-15 2h-188l21 64 14 43 16 50 12 36 15 47 11 33v2l238-1 12-39 12-40 4-8 8-9 7-4 4-1h13l10 4 6 5 6 10 2 7-1 11-9 31-9 29-2 5h62l10 3 10 9 4 8 1 3v14l-5 10-6 7-10 5-3 1h-537l-11-7-7-8-3-7-1-8-59 1-3 11-8 11-13 7h-1040l-11-6-7-8-4-9v-14l3-8 9-10 8-4 4-1h55l-12-38-8-27-1-10 3-10 4-6 9-8 8-3h12l11 4 6 5 6 10 14 45 11 36 5 1h63l1-119 2-29 4-29 6-29 7-26 8-24 11-27 12-25 13-23 16-27 10-17 1-3 1-1425 3-12 8-15 5-6h2l2-4 10-7 15-6 127-34 255-68 79-21z" fill="#ADB5BF"/>
     <path transform="translate(1017,60)" d="m0 0 5 2 18 20 7 7 7 8 16 17 7 8 15 16 14 15 11 12 9 10 12 13 8 9 9 6 9 3 13-1 12-6 8 8 7 8 14 15 6 6-1 4-6 10-1 4v12l4 10 12 14 9 9 7 8 15 16 9 10 13 14-1 3-67 16-49 12-25 7-21 8-25 12-18 11-14 10-16 13-16 15-7 8-13 16-14 22-12 23-19 45-15 36-6 16-1 12 3 10 9 10 9 4 4 1h9l39-9 66-16 71-17 18-4 6 8 11 17 12 19 56 88 7 10 7 6 8 3h14l8-3 9-8 4-8 1-3v-13l-4-10-16-25-56-88-16-25-2-3 1-7 11-27 6-11 6-8 8-8 14-8 5-1 11 9 13 11 11 9 13 11 11 9 13 11 11 9 14 12 11 9 13 11 11 9 13 11 11 9 14 12 11 9 13 11 11 9 13 11 11 9 14 12 11 9 13 11 11 9 13 11 11 9 26 22 11 9 13 11 11 9 13 11 11 9 13 11 14 11 13 13 5 8 4 12v16l-4 13-8 11-7 7-18 13-16 11-100 70-18 13-16 11-15 10-7 3-10 1-10-2-12-5-11-7-13-12-10-11-9-14-8-15-7-21-2-10-1-10-1-85-3-10-8-14-13-20-10-15-4-5-10-6-3-1h-14l-8 3-9 8-4 7-1 4v14l7 14 14 22 6 9 1 5v65l2 24 5 23 8 22 8 16 8 14 11 15 12 14 13 12 14 10 15 9 17 7 17 4 9 1h11l15-2 6-1 26 36 11 17 7 15 1 5-8 3-81 22-49 13-10 4-9 8-4 9-1 4v9l3 9 6 8 10 6 3 1h14l127-34h2l1 95 10 33 17 52 16 50 21 65 12 39 1 5v14l-3 11-4 8h-2v-3l-6-1h-70l-97 1h-247l-46-1-35-2-36-4-24-4-24-5-28-8-20-7-17-7-16-8-17-9-21-14-13-10-12-11-8-7-7-7-9-11-12-15-7-11-11-18-12-24-11-29-7-23-6-27-5-35-3-33-1-18-1-45-1-159v-206l1-347 1-12 7-14 7-10 1-3h2l2-6 7-11 6-11 10-21 6-15 9-28 6-26 3-19 2-23v-24l-3-29-4-24-7-29-12-36-9-22-8-16-10-18-3-5-1-3 101-27 90-24z" fill="#ADB5BF"/>
@@ -32,8 +32,11 @@ export default function Header() {
     <path transform="translate(848,1885)" d="m0 0 4 2 5 6-4 2-2-1-1-3-1-4z" fill="#919BA5"/>
     <path transform="translate(1245,354)" d="m0 0 9 1h5l-4 2-8 2h-5l1-3h2z" fill="#919BA5"/>
     <path transform="translate(467,1722)" d="m0 0h2l-1 5-5 10-1-4z" fill="#A3ACB6"/>
+    
     </svg>
-        <span class="navbar-text">CHAD</span>
+        <a href='/'>
+          <span class="navbar-text">CHAD</span>
+        </a>
     </a>
     <button data-collapse-toggle="navbar-default" type="button" class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600" aria-controls="navbar-default" aria-expanded="false">
         <span class="sr-only">Open main menu</span>
@@ -44,11 +47,11 @@ export default function Header() {
     <div class="hidden w-full md:block md:w-auto" id="navbar-default">
       <ul class="wrapper font-medium flex flex-col p-4 md:p-0 mt-4 border rounded-lg md:flex-row md:space-x-8 rtl:space-x-reverse md:mt-0 md:border-0  dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
         <li>
-          <a href="#" class="block py-2 px-3 text-[#FB8569] bg-[#FB8569] rounded md:bg-transparent md:text-[#FB8569] md:p-0 dark:text-white md:dark:text-blue-500 hover:underline" aria-current="page">Home</a>
+          <a href="/" class="block py-2 px-3 text-[#FB8569] bg-[#FB8569] rounded md:bg-transparent md:text-[#FB8569] md:p-0 dark:text-white md:dark:text-blue-500 hover:underline" aria-current="page">Home</a>
         </li>
-        <li>
-        <a href="#" class="block py-2 px-3 text-[#FB8569] bg-[#FB8569] rounded md:bg-transparent md:text-[#FB8569] md:p-0 dark:text-white md:dark:text-blue-500 hover:underline" aria-current="page">About</a>
-        </li>
+        {/* <li>
+        <a href="" class="block py-2 px-3 text-[#FB8569] bg-[#FB8569] rounded md:bg-transparent md:text-[#FB8569] md:p-0 dark:text-white md:dark:text-blue-500 hover:underline" aria-current="page">About</a>
+        </li> */}
         <li>
         <a href="/Team" class="block py-2 px-3 text-[#FB8569] bg-[#FB8569] rounded md:bg-transparent md:text-[#FB8569] md:p-0 dark:text-white md:dark:text-blue-500 hover:underline" aria-current="page">Team</a>
         </li>

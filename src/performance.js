@@ -2,15 +2,15 @@ import React from 'react';
 import ProgressBar from './ProgressBar';
 
 const teamMembers = [
-  { name: 'Vandita', photo: 'https://media.licdn.com/dms/image/D5603AQEdWn8wbAk-Kg/profile-displayphoto-shrink_400_400/0/1719067482355?e=1727308800&v=beta&t=w3JOntDGG-6HbkasJNfFeB7CavzlgERA4SObtCm4Boo', goldProgress: 70, elixirProgress: 60 },
-  { name: 'Divyansh', photo: 'https://media.licdn.com/dms/image/D5603AQGJXzzuluJmyw/profile-displayphoto-shrink_400_400/0/1721583871266?e=1727308800&v=beta&t=PHg5CWEa_lwM2jJL-93wmslSc_Pzac_EirwCQSmeEaM', goldProgress: 50, elixirProgress: 45 },
-  { name: 'Danie', photo: 'https://media.licdn.com/dms/image/D4E03AQFy8Xjo38qvmw/profile-displayphoto-shrink_400_400/0/1688220788738?e=1727308800&v=beta&t=VgmkV11XKL_ijQKE8jl5eFAq12lJ56JJXEELmowI8m8', goldProgress: 85, elixirProgress: 75 },
-  { name: 'Iha', photo: 'https://media.licdn.com/dms/image/D5603AQE1hObgBx9SMQ/profile-displayphoto-shrink_400_400/0/1694672999399?e=1727308800&v=beta&t=jGuuj-FFJ6TL8UxI5OHur_MPCiZXV0onngVzxP9vaVY', goldProgress: 40, elixirProgress: 55 },
-  { name: 'Aayush Raju Bade', photo: 'https://media.licdn.com/dms/image/D4D03AQHYGI7N7jaeEg/profile-displayphoto-shrink_400_400/0/1719024727767?e=1727308800&v=beta&t=tL7P_zzalPuDIWcHc4Zpc9eAxPDDsxPf2bgLrqmTtZg', goldProgress: 60, elixirProgress: 70 },
-  { name: 'Aditya', photo: 'https://media.licdn.com/dms/image/D5603AQGFfzX5eC4rtA/profile-displayphoto-shrink_400_400/0/1705864325934?e=1727308800&v=beta&t=COvxVGA_YKEegdxGaRsE-tsqg4jX94jcNDPKhAQ_3LA', goldProgress: 75, elixirProgress: 65 },
-  { name: 'Nayan', photo: 'https://media.licdn.com/dms/image/D5603AQGB8LfZOzd4eA/profile-displayphoto-shrink_800_800/0/1721495396434?e=1727308800&v=beta&t=-PR-reCN-Vyqw-ABp7p_fOfb8exXY8ZwlQsIPv62LTY', goldProgress: 80, elixirProgress: 85 },
-  { name: 'Yuvraj', photo: 'https://media.licdn.com/dms/image/D4D03AQHuFGJ8fyKFkQ/profile-displayphoto-shrink_400_400/0/1687198633319?e=1727308800&v=beta&t=FzGtm8QtXKIrfRSAQAjrD0KuUM04jxOvcvdpR2hXIcY', goldProgress: 55, elixirProgress: 60 },
-  { name: 'Prakhar', photo: 'https://media.licdn.com/dms/image/D5603AQH9drmsWtyXmw/profile-displayphoto-shrink_400_400/0/1716194326966?e=1727308800&v=beta&t=xjzLGji9aLEyuWkzzr73W4DmYh6H5qKsVvEcboOOn-s', goldProgress: 90, elixirProgress: 80 },
+  { name: 'Vandita', photo: 'https://via.placeholder.com/150', goldProgress: 70, elixirProgress: 60 },
+  { name: 'Divyansh', photo: 'https://via.placeholder.com/150', goldProgress: 50, elixirProgress: 45 },
+  { name: 'Danie', photo: 'https://via.placeholder.com/150', goldProgress: 85, elixirProgress: 75 },
+  { name: 'Iha', photo: 'https://via.placeholder.com/150', goldProgress: 40, elixirProgress: 55 },
+  { name: 'Ayush', photo: 'https://via.placeholder.com/150', goldProgress: 60, elixirProgress: 70 },
+  { name: 'Aditya', photo: 'https://via.placeholder.com/150', goldProgress: 75, elixirProgress: 65 },
+  { name: 'Nayan', photo: 'https://via.placeholder.com/150', goldProgress: 80, elixirProgress: 85 },
+  { name: 'Yuvraj', photo: 'https://via.placeholder.com/150', goldProgress: 55, elixirProgress: 60 },
+  { name: 'Prakhar', photo: 'https://via.placeholder.com/150', goldProgress: 90, elixirProgress: 80 },
 ];
 
 export default function Performance() {
