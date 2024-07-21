@@ -1,5 +1,7 @@
 import React from 'react';
 import { motion } from 'framer-motion';
+import './ProgressPageStyles.css';
+import ProgressBarWithNodes from './ProgressBarWithNodes';
 
 const ProgressBar = ({ progress, duration = 20 }) => (
   <div className="relative w-full max-w-[800px]">
@@ -33,6 +35,7 @@ export default function ProgressPage() {
       {/* Include ProgressBar here */}
       <div className="w-full max-w-screen-xl px-4 py-10 mx-auto">
         <ProgressBar progress={70} duration={15} /> {/* Example values for progress and duration */}
+        <ProgressBarWithNodes />
       </div>
     </section>
   );
