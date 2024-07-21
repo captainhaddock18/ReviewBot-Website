@@ -48,6 +48,7 @@ function App() {
       <Routes>
         <Route exact path="/" element={<Home />} />
         <Route path="/team" element={<Team />} />
+        <Route path="/progress" element={<ProgressPage />} /> {/* Route for ProgressPage */}
       </Routes>
     
 
