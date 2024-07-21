@@ -1,5 +1,6 @@
 import tharak from "./assets/tharak_mentor.jpeg";
 import varshit from "./assets/varshita_mentor.jpeg";
+import {Link} from 'react-router-dom';
 export default function Teampage() {
     
   return (
@@ -194,8 +195,9 @@ export default function Teampage() {
                 </div>
               </div>
               <div className="mb-4 text-1xl tracking-tight font-extrabold text-gray-900 dark:text-white">
+                <Link to = "/team" className="text-white">Button</Link>
                 <a
-                  href="#"
+                  href="/team"
                   class="inline-flex justify-center items-center py-3 px-5 text-xl font-bold text-center text-[#9B99FF] rounded-lg bg-primary-700 hover:bg-primary-800 focus:ring-4 focus:ring-primary-300 dark:focus:ring-primary-900 bg-gray-800 shadow-lg transform transition-transform duration-300 hover:scale-105"
                 >
                   Full Team

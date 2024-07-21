@@ -12,6 +12,7 @@ import Projects from "./projects";
 import Form from "./form";
 import myImage from "./assets/moai.png";
 import Framer from "./fade";
+import Team from "./Team.js"
 import {
   Animator,
   ScrollContainer,
@@ -33,6 +34,7 @@ import {
 import React from "react";
 import "./App.css";
 import ProgressPage from "./ProgressPage"; // Import the new ProgressPage component
+import Home from "./Home.js";
 function App() {
   const ZoomInScrollOut = batch(StickyIn(), FadeIn(), ZoomIn());
   const FadeUp = batch(Fade(), Move(), Sticky());
@@ -43,40 +45,12 @@ function App() {
   );
   return (
     <Router>
-      <div>
-        <Header />
+      <Routes>
+        <Route exact path="/" element={<Home />} />
+        <Route path="/team" element={<Team />} />
+      </Routes>
+    
 
-        <ScrollContainer className="bg-[#001D21]">
-          <Component />
-
-          <ScrollPage>
-            <Animator animation={batch(Fade(), Sticky(), MoveOut(0, -200))}>
-              <img
-                src={myImage}
-                alt="A descriptive alt text"
-                style={{ width: "100%", height: "70%" }} // Adjust style as needed
-              />
-            </Animator>
-          </ScrollPage>
-
-        <Routes>
-          <Route exact path="/" element={<Hero />} />
-          <Route path="/progress" element={<ProgressPage />} /> {/* Route for ProgressPage */}
-          <Route exact path="*" element={<NotFound />} />
-        </Routes>
-
-          <Hero />
-
-          <Teampage />
-        </ScrollContainer>
-        <Progress />
-        <Projects />
-        <Form />
-
-        <Component />
-
-        <Floater />
-      </div>
     </Router>
   );
 }
