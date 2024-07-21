@@ -5,7 +5,7 @@ import Header from "./Header";
 import Component from "./Carousel";
 import Floater from "./floater";
 import Hero from "./hero";
-import Performance from "./Performance";
+import Performance from "./particles.js";
 import NotFound from "./NotFound";
 import Progress from "./progress";
 import Teampage from "./teampage";
