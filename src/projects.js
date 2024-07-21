@@ -14,7 +14,7 @@ export default function Projects() {
     <div class="grid grid-cols-1 mt-12 text-center sm:mt-16 gap-x-20 gap-y-12 sm:grid-cols-2 lg:grid-cols-3">
       <div class="space-y-4">
         <span
-          class="bg-gray-100 text-[#FB8569] text-xl font-medium inline-flex items-center px-2.5 py-0.5 rounded dark:bg-gray-700 dark:text-gray-300">
+          class="bg-gray-800 text-[#F4FCC0] text-xl font-medium inline-flex items-center px-2.5 py-0.5 rounded dark:bg-gray-700 dark:text-gray-300">
           Task 1
         </span>
         <h3 class="text-2xl font-bold leading-tight text-[#FB8569] dark:text-white">
@@ -28,7 +28,7 @@ export default function Projects() {
 
       <div class="space-y-4">
         <span
-          class="bg-gray-100 text-[#FB8569] text-xl font-medium inline-flex items-center px-2.5 py-0.5 rounded dark:bg-gray-700 dark:text-gray-300">
+          class="bg-gray-800 text-[#F4FCC0] text-xl font-medium inline-flex items-center px-2.5 py-0.5 rounded dark:bg-gray-700 dark:text-gray-300">
           Task 2
         </span>
         <h3 class="text-2xl font-bold leading-tight text-[#FB8569] dark:text-[#FB8569]">
@@ -42,7 +42,7 @@ export default function Projects() {
 
       <div class="space-y-4">
         <span
-          class="bg-gray-100 text-[#FB8569] text-xl font-medium inline-flex items-center px-2.5 py-0.5 rounded dark:bg-gray-700 dark:text-gray-300">
+          class="bg-gray-800 text-[#F4FCC0] text-xl font-medium inline-flex items-center px-2.5 py-0.5 rounded dark:bg-gray-700 dark:text-gray-300">
           Task 3
         </span>
         <h3 class="text-2xl font-bold leading-tight text-[#FB8569] dark:text-[#FB8569]">
@@ -55,7 +55,7 @@ export default function Projects() {
       </div>
     </div>
     <div class="flex justify-center items-center h-auto bg-#EEEDEB pt-10">
-  <a href="#" class="inline-flex justify-center items-center py-3 px-5 text-base font-medium text-center text-white rounded-lg bg-primary-700 hover:bg-primary-800 focus:ring-4 focus:ring-primary-300 dark:focus:ring-primary-900 bg-blue-700 shadow-lg transform transition-transform duration-300 hover:scale-105">
+  <a href="#" class="inline-flex justify-center items-center py-3 px-5 text-base font-medium text-center text-[#9B99FF] rounded-lg bg-primary-700 hover:bg-primary-800 focus:ring-4 focus:ring-primary-300 dark:focus:ring-primary-900 bg-blue-700 shadow-lg transform transition-transform duration-300 hover:scale-105">
     Learn more
     <svg class="ml-2 -mr-1 w-5 h-5" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
       <path fill-rule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clip-rule="evenodd"></path>
